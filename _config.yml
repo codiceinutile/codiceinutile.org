@@ -8,12 +8,30 @@
 # Site settings
 title: Codice Inutile
 email: codiceinutile@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Codice Inutile.
+author: codiceinutile
+description: Codice Inutile &egrave; un collettivo di artisti e programmatori nato per esplorare e diffondere la potenzialit&agrave; del codice.
+timezone: Europe/Rome
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.codiceinutile.org" # the base hostname & protocol for your site
-twitter_username: codiceinutile
-github_username:  codiceinutile
+
+# Social Settings
+newsletter_url: http://goo.gl/forms/eu8f2KBslHfPIwsN2
+
+# SEO Settings
+# https://github.com/jekyll/jekyll-seo-tag
+twitter:
+  username: codiceinutile
+
+facebook:
+  app_id: 1055775321175305
+  publisher: http://www.facebook.com/codiceinutile
+
+github:
+  username: codiceinutile
+
+google_site_verification: sXrZY76d0L9dLRhShowTHH7coc-wwVK-E2fE25A6Ibw
+
 
 # Build settings
 markdown: kramdown

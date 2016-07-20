@@ -30,6 +30,10 @@ ul.social {
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .wrapper {
+      text-align: center;
+    }
 }
 
 .site-title {
@@ -122,7 +126,7 @@ ul.social {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    text-align: center;
+    text-align: left;
     font-size: $small-font-size;
     color: $grey-color;
 }
