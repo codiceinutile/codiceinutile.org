@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.codiceinutile.org" # the base hostname & protocol for your site
 
 # Social Settings
-newsletter_url: http://goo.gl/forms/eu8f2KBslHfPIwsN2
+newsletter_url: http://eepurl.com/chFYY5
 
 # SEO Settings
 # https://github.com/jekyll/jekyll-seo-tag
