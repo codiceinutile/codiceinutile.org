@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Workshop Creative Coding a settembre (Verona)"
+title:  "Workshop Creative Coding a Verona"
 date:   2016-07-20 10:39:00 +0100
-# last_modified_at:
-# image:
 excerpt: "A settembre 2016 Codice Inutile terrà un workshop di Creative Coding a Verona utilizzando Processing. Il workshop è suddiviso in 3 moduli: Processing Base (3-4 settembre), Generative Art (10-11 settembre) e Data Visualization (17-18 settembre)"
 image: /images/posts/workshop_linos.jpg
-categories: workshop
+categories: news
 author: fedpep
 tags: ["Processing", "Workshop", "Verona"]
 ---
@@ -66,7 +64,7 @@ Per iscriversi è necessario compilare il modulo a questo indirizzo: <http://bit
 **NOTA**: Per frequentare il secondo e terzo modulo è necessario frequentare il primo o dimostrare di avere già una conoscenza di base di Processing.
 
 ### Il workshop è realizzato in collaborazione con
-[![Lino's and Co](/images/posts/logo_linos.jpg){:height="100px"}](http://www.linosandco.com)
+[![Lino's and Co](/images/posts/logo_linos.png){:height="100px"}](http://www.linosandco.com)
 [![Interzona](/images/posts/logo_interzona.jpg){:height="50px"}](http://www.izona.it)
-[![311 Verona](/images/posts/logo_311.jpg){:height="100px"}](http://www.311verona.com)
+[![311 Verona](/images/posts/logo_311.png){:height="100px"}](http://www.311verona.com)
 [![Verona Fab Lab](/images/posts/logo_veronafablab.png){:height="100px"}](http://www.veronafablab.it)

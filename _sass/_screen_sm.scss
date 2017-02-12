@@ -1,0 +1,48 @@
+/*
+ * Media Queries
+ * Small Devices: tablets, 768px and up
+ *
+*/
+	body{
+		.title{
+			ul{
+				opacity:1;
+				position: relative;
+			}
+		}
+		.rowPadding{
+		  padding: 3em 0;
+		}
+
+	 	.collapse{
+	      display: block;
+	      opacity:1;
+	      position:relative;
+	      width: auto;
+	      
+	      &.in {
+	          opacity: 0;
+	          position: absolute;
+	          width: 100%;
+	          margin-top: 0;
+	      }
+	    }
+
+		.flexbox-container {
+		  display: -ms-flexbox;
+		  display: -webkit-flex;
+		  display: flex;
+		  -ms-flex-align: center;
+		  -webkit-align-items: center;
+		  -webkit-box-align: center;
+		  align-items: center;
+		  width: 100%;
+		  height: 100%;
+		  
+		}
+		.navbar-toggle{
+		  opacity:0;
+		  display: block;
+		}
+
+	}
