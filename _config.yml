@@ -13,7 +13,14 @@ description: Codice Inutile &egrave; un collettivo di artisti e programmatori na
 timezone: Europe/Rome
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.codiceinutile.org" # the base hostname & protocol for your site
+url: "https://www.codiceinutile.org" # the base hostname & protocol for your site
+
+# Collections
+collections:
+  people:
+    output: true
+  meetup:
+    output: false
 
 # Social Settings
 newsletter_url: http://eepurl.com/chFYY5

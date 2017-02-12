@@ -1,1 +1,76 @@
-// CODICEINUTILE.ORG SCSS VARIABLES
+/*
+ * VARIABLES
+ *
+ * Before editing this file, please check how Twitter's Bootstrap handles variables
+ * http://getbootstrap.com/css/
+*/
+
+// FONTS
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+$inconsolata: 'Inconsolata', sans-serif;
+$monserrat: 'Montserrat', sans-serif;
+
+// COLORS
+
+$ultraWhite: #fff;
+$ultraBlack: #000;
+$white: darken($ultraWhite, 5%);
+$black: lighten($ultraBlack, 10%);
+
+// COLORS ANIMATION
+@keyframes color-change{
+  0% {
+    fill: red;
+    color: red;
+  }
+  20% {
+    fill: orange;
+    color: orange;
+  }
+  40% {
+    fill: green;
+    color: green;
+  }
+  60% {
+    fill: #4267ff;
+    color: #4267ff;
+  }
+  80% {
+    fill: violet;
+    color: violet;
+  }
+  100% {
+    fill: red;
+    color: red;
+  }
+}
+
+// COLORS ANIMATION
+@keyframes background-change{
+  0% {
+    background: red;
+    color: $white;
+  }
+  20% {
+    background: orange;
+    color: $white;
+  }
+  40% {
+    background: green;
+    color: $white;
+  }
+  60% {
+    background: #4267ff;
+    color: $white;
+  }
+  80% {
+    background: violet;
+    color: $white;
+  }
+  100% {
+    background: red;
+    color: $white;
+  }
+}

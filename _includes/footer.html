@@ -1,48 +1,62 @@
-<footer class="site-footer">
+<div class="container">
+  <div class="row rowPadding">
+    <div class="col-xs-12 text-center">
+      <h5>Newsletter</h5>
+    </div>
+    <div class="col-xs-12 text-center">
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+      <form action="//codiceinutile.us14.list-manage.com/subscribe/post?u=4264acf90b7891aa8d7dbe189&amp;id=a5b1d32440" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <div class="form-group mc-field-group">
+            <label for="mce-EMAIL" class="sr-only">Email Address </label>
+            <input type="email" value="" name="EMAIL" class="form-control required email" placeholder="you@youremail.com" id="mce-EMAIL">
+          </div>
+          <div class="form-group mc-field-group">
+            <label for="mce-FNAME" class="sr-only">First Name </label>
+            <input type="text" value="" name="FNAME" class="form-control" placeholder="Nome" id="mce-FNAME">
+          </div>
+          <div class="form-group mc-field-group">
+            <label for="mce-LNAME" class="sr-only">Last Name </label>
+            <input type="text" value="" name="LNAME" class="form-control" placeholder="Cognome" id="mce-LNAME">
+          </div>
+          <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">Iscriviti</button>
 
-  <div class="wrapper">
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <h2 class="footer-heading">Chi siamo</h2>
-        <p>{{ site.description }}</p>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_4264acf90b7891aa8d7dbe189_a5b1d32440" tabindex="-1" value="">
+          </div>
+        </div>
+      </form>
       </div>
 
-      <div class="footer-col footer-col-2">
-
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <h2 class="footer-heading">Seguici</h2>
-        <ul class="social-media-list">
-          {% if site.github.username %}
-          <li>
-            <a href="http://www.github.com/{{ site.github.username}}">GitHub</a>
-          </li>
-          {% endif %}
-
-          {% if site.facebook.publisher %}
-          <li>
-            <a href="{{ site.facebook.publisher}}">Facebook</a>
-          </li>
-          {% endif %}
-
-          {% if site.twitter.username %}
-          <li>
-            <a href="http://www.twitter.com/{{ site.twitter.username}}">Twitter</a>
-          </li>
-          {% endif %}
-
-          {% if site.newsletter_url %}
-          <li>
-            <a href="{{ site.newsletter_url}}">Newsletter</a>
-          </li>
-          {% endif %}
-
+      <!--End mc_embed_signup-->
+  </div>
+</div>
+<footer class="site-footer text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="social">
+            <li>
+              <a href="http://www.github.com/{{ site.github.username }}"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+            </li>
+            <li>
+              <a href="{{ site.facebook.publisher }}"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="http://www.twitter.com/{{ site.twitter.username }}"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+            </li>
         </ul>
+
+        <p><small>&copy; 2016 Codice Inutile &hearts; è un collettivo di artisti e programmatori nato per esplorare e diffondere la potenzialità del codice.</small></p>
       </div>
     </div>
-    <p><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> &bull; Source code of this website is available on <a href="https://github.com/codiceinutile/codiceinutile.org">GitHub</a></p>
   </div>
 
   <!-- GOOGLE ANALYTICS -->
@@ -57,9 +71,15 @@
   </script>
   <!-- END GOOGLE ANALYTICS -->
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    var singleWidth = $( ".single" ).width();
+    $( ".single" ).css("height", singleWidth );
+  </script>
+
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+
+
 
 </footer>
