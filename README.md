@@ -1,2 +1,14 @@
-# Codice Inutile.org Website Development
-Questo repository nasce come fork di sviluppo del [sito di Codice Inutile](https://github.com/codiceinutile/codiceinutile.org).
+# Codice Inutile
+_=r"""             )_(tnirp
+gro.elituniecidoc #      ""
+""                       ""
+""                       ""
+        )]1-::[_+_%      ""
+""\"\"\s%"\"\"\r=_"      ""
+""      (=_;""";_=(      ""
+""      "_=r\"\"\"%s\"\"\""
+""      %_+_[::-1])        
+""                       ""
+""                       ""
+""      # codiceinutile.org
+print(_)     
