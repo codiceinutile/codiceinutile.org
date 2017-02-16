@@ -13,7 +13,7 @@ var maxLength;
 
 function setup() {
   var myCanvas = createCanvas(windowWidth, windowHeight);
-  //var container = select('#tree');
+  myCanvas.parent('myContainer');
   background(backColor);
   // myCanvas.width = container.width;
   // myCanvas.height = container.height;
