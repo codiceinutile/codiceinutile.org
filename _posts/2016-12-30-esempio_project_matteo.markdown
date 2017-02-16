@@ -14,5 +14,5 @@ href: matteo.js
 date: 2016-12-30 10:40:00 +0100
 ---
 # Descrizione del progetto
-
-Questo è il testo di spiegazione
+Pixel Dawn.
+Generative design allows the precision of massive pixel-per-pixel manipulation and the emerging of picture from the inner beauty of the Gaussian Distribution.
