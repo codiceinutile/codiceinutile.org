@@ -13,4 +13,4 @@ github:
 # Template
 layout: people
 ---
-Questa è la pagina di Matteo Testa, modifica il file _people/maojh.md per modificare questo testo.
+I'm a Communication Designer and Digital Artist in constant search for the equilibrium between aesthetic and function. Human and technology are both themes and tools for my research and works.
