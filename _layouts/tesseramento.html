@@ -35,7 +35,7 @@ layout: default
               I pagamenti con carta di credito sono gestiti in modo sicuro con Stripe.
             </p>
 
-            <form action="https://codiceinutilepay.herokuapp.com" method="POST" class="donation-form">
+            <form action="https://codiceinutilepay.herokuapp.com" method="POST" class="donation-form text-center">
               <div id="error_explanation">
               </div>
               <script src="https://checkout.stripe.com/checkout.js"></script>
@@ -68,7 +68,7 @@ layout: default
               <button class="btn btn-primary" id='donateButton'>Paga con carta di credito</button>
               <script>
               var handler = StripeCheckout.configure({
-                key: 'pk_test_OwC6SpAOUEBMqFfs6dRoKNYb',
+                key: 'pk_live_B0mnUUJgKBBjohmxGdAuPFSe',
                 locale: 'auto',
                 name: 'Codice Inutile',
                 description: 'Pagamento quota associativa',
