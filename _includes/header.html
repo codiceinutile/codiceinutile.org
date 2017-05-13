@@ -1,25 +1,30 @@
-<header class="main">
-  <nav class="navbar navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{ site.url }}">codiceinutile</a>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="True">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+<div class="main-navbar">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div id="navbar" class="collapse navbar-collapse" >
-      <ul class="miniNav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}/meetup.html">Circoli </a></li>
-        <li><a href="{{ site.url }}/persone.html">Persone</a></li>
-        <!--<li><a href="{{ site.url }}/progetti.html">Mostre</a></li>-->
+  <nav class="navbar navbar-toggleable-md navbar-light">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    {% if page_paths %}
+    <!--
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="nav nav-pills">
+        {% for path in page_paths %}
+          {% assign my_page = site.pages | where: "path", path | first %}
+          {% if my_page.title %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.medium.com/@codiceinutile">Blog</a>
+        </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+    -->
+    {% endif %}
   </nav>
-</header>
+</div>

@@ -1,0 +1,145 @@
+---
+layout: default
+---
+<div class="page">
+  <div class="container">
+    <div class="row">
+      <article class="post col-12 col-sm-6">
+
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+      </article>
+      <aside class="col-12 col-sm-6">
+        <h2>Diventa socio</h2>
+        <p>Per diventare socio dell'associazione &egrave; sufficiente seguire questi semplici passaggi</p>
+        <ol>
+          <li><a href="https://github.com/codiceinutile/associazione/blob/master/STATUTO.md" target="_blank">Leggi lo statuto</a></li>
+          <li><a href="https://goo.gl/forms/Ir5MOzWaO80GX8N92" target="_blank">Compila la domanda di ammissione</a></li>
+          <li>Effettua il pagamento della quota associativa annuale che, per il 2017, &egrave; pari a <strong>&euro; 5</strong>. Se lo desideri, puoi effettuare una donazione all'associazione per sostenerne le attivit&agrave;. </li>
+        </ol>
+        <h3>Modalit&agrave; di pagamento</h3>
+        <ul>
+          <li>
+            <strong>Bonifico Bancario</strong>
+            <p>Nella causale del bonifico indica il tuo indirizzo e-mail.<br />IBAN: IT94 M 05034 11705 000000001773</p>
+          </li>
+          <li>
+            <p>
+              <strong>Carta di credito</strong><br />
+              I pagamenti con carta di credito sono gestiti in modo sicuro con Stripe.
+            </p>
+
+            <form action="https://codiceinutilepay.herokuapp.com" method="POST" class="donation-form">
+              <div id="error_explanation">
+              </div>
+              <script src="https://checkout.stripe.com/checkout.js"></script>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="valore" value="500" checked />
+                  &euro;5
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="valore" value="1000"/>
+                  &euro;10
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="valore" value="2000"/>
+                  &euro;20
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="valore" value="5000"/>
+                  &euro;50
+                </label>
+              </div>
+              <div class="form-check">
+              </div>
+              <button class="btn btn-primary" id='donateButton'>Paga con carta di credito</button>
+              <script>
+              var handler = StripeCheckout.configure({
+                key: 'pk_test_OwC6SpAOUEBMqFfs6dRoKNYb',
+                locale: 'auto',
+                name: 'Codice Inutile',
+                description: 'Pagamento quota associativa',
+                image: 'https://s3.amazonaws.com/stripe-uploads/acct_1AIXovI5eKZenhXKmerchant-icon-1494574380962-CI_SQUARE.jpg',
+                currency: 'eur',
+                token: function(token) {
+                  $('input#stripeToken').val(token.id);
+                  $('form').submit();
+                }
+              });
+              </script>
+            </form>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<script>
+// SET AMOUNT DEFAULT VALUE
+var amount = 500;
+
+$('input[name="valore"]').change(function(){
+  amount = $('input[name="valore"]:checked').val();
+});
+
+$('#donateButton').on('click', function(e) {
+
+  e.preventDefault();
+
+  //amount = amount.replace(/\$/g, '').replace(/\,/g, '')
+
+  amount = parseInt(amount);
+
+  if (isNaN(amount)) {
+    $('#error_explanation').html('<p class="alert alert-warning" role="alert">Si è verificato un errore.</p>');
+  }
+  else if (amount < 500) {
+    $('#error_explanation').html('<p class="alert alert-warning" role="alert">L\'importo minimo è di 5 euro.</p>');
+  }
+  else {
+    handler.open({
+      amount: Math.round(amount)
+    })
+  }
+
+  $('#error_explanation').html('');
+});
+
+  /*var amount = $('input#amount').val();
+  amount = amount.replace(/\$/g, '').replace(/\,/g, '')
+
+  amount = parseFloat(amount);
+
+  if (isNaN(amount)) {
+    $('#error_explanation').html('<p>Please enter a valid amount in USD ($).</p>');
+  }
+  else if (amount < 5.00) {
+    $('#error_explanation').html('<p>Donation amount must be at least $5.</p>');
+  }
+  else {
+    amount = amount * 100; // Needs to be an integer!
+    handler.open({
+      amount: Math.round(amount)
+    })
+  }
+});
+*/
+// Close Checkout on page navigation:
+window.addEventListener('popstate', function() {
+  handler.close();
+});
+</script>

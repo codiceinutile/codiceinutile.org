@@ -1,32 +1,21 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Codice Inutile
 email: codiceinutile@gmail.com
-author: codiceinutile
-description: Codice Inutile &egrave; un collettivo di artisti e programmatori nato per esplorare e diffondere la potenzialit&agrave; del codice.
-timezone: Europe/Rome
-
+description: > # this means to ignore newlines until "baseurl:"
+  Codice Inutile è un'associazione culturale senza scopo di lucro nata per esplorare le potenzialità delle nuove tecnologie in ambito artistico, culturale e sociale.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.codiceinutile.org" # the base hostname & protocol for your site
+url: "https://www.codiceinutile.org" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Collections
-collections:
-  people:
-    output: true
-  meetup:
-    output: false
-
-# Social Settings
-newsletter_url: http://eepurl.com/chFYY5
-
-# SEO Settings
+# Jekyll SEO TAG
 # https://github.com/jekyll/jekyll-seo-tag
+
 twitter:
   username: codiceinutile
 
@@ -34,15 +23,30 @@ facebook:
   app_id: 1055775321175305
   publisher: http://www.facebook.com/codiceinutile
 
-github:
-  username: codiceinutile
+social:
+  name: Codice Inutile
+  links:
+    - https://twitter.com/codiceinutile
+    - https://www.facebook.com/codiceinutile
+    - https://www.linkedin.com/company-beta/17774068/
+    - https://github.com/codiceinutile
 
 google_site_verification: sXrZY76d0L9dLRhShowTHH7coc-wwVK-E2fE25A6Ibw
 
+lang: it_IT
+
+# Mimima Theme settings
+disqus:
+    shortname: codiceinutile
+
+google_analytics: UA-79516971-1
 
 # Build settings
 markdown: kramdown
-
-# SEO
+theme: minima
 gems:
+  - jekyll-feed
   - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
