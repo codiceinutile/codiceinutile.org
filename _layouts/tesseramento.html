@@ -92,19 +92,14 @@ layout: default
 <script>
 // SET AMOUNT DEFAULT VALUE
 var amount = 500;
-
+// Change amount value if a radio button is selected
 $('input[name="valore"]').change(function(){
   amount = $('input[name="valore"]:checked').val();
 });
-
+// When the button is clicked
 $('#donateButton').on('click', function(e) {
-
   e.preventDefault();
-
-  //amount = amount.replace(/\$/g, '').replace(/\,/g, '')
-
   amount = parseInt(amount);
-
   if (isNaN(amount)) {
     $('#error_explanation').html('<p class="alert alert-warning" role="alert">Si è verificato un errore.</p>');
   }
@@ -116,29 +111,8 @@ $('#donateButton').on('click', function(e) {
       amount: Math.round(amount)
     })
   }
-
   $('#error_explanation').html('');
 });
-
-  /*var amount = $('input#amount').val();
-  amount = amount.replace(/\$/g, '').replace(/\,/g, '')
-
-  amount = parseFloat(amount);
-
-  if (isNaN(amount)) {
-    $('#error_explanation').html('<p>Please enter a valid amount in USD ($).</p>');
-  }
-  else if (amount < 5.00) {
-    $('#error_explanation').html('<p>Donation amount must be at least $5.</p>');
-  }
-  else {
-    amount = amount * 100; // Needs to be an integer!
-    handler.open({
-      amount: Math.round(amount)
-    })
-  }
-});
-*/
 // Close Checkout on page navigation:
 window.addEventListener('popstate', function() {
   handler.close();
