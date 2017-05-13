@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="text-center pb-3">{% include icon-logo.html width="3em" %}</h1>
+
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <p class="lead">Siamo un'associazione culturale senza scopo di lucro nata per esplorare le potenzialità delle nuove tecnologie in ambito artistico, culturale e sociale.</p>
+        <p>Vogliamo creare una community di creative coders in Italia: persone accomunate dalle nostre stesse passioni e dalla consapevolezza che la programmazione può essere usata non solo, come normalmente si è portati a credere, per risolvere problemi ma anche per esprimersi creativamente.</p>
+      </div>
+      <div class="col-12 col-sm-6">
+        <blockquote class="blockquote">Resta da chiarire l'aggettivo &quot;inutile&quot;: inutili perché non fabbricano, non eliminano manodopera, non fanno economizzare tempo e denaro, non producono niente di commerciabile.
+        <footer class="blockquote-footer">Bruno Munari in <cite>Le macchini inutili e perch&eacute;, La Lettura (1 luglio 1937)</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container pb-3">
+  <div class="container text-center">
+    <h3 class="">Newsletter</h3>
+    <p>Iscriviti alla newsletter per rimanere aggiornato su attivit&agrave;, workshop, iniziative dell'associazione</p>
+    <form action="//codiceinutile.us14.list-manage.com/subscribe/post?u=4264acf90b7891aa8d7dbe189&amp;id=a5b1d32440" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate justify-content-center" target="_blank" novalidate>
+        <div class="form-group mb-2 mr-sm-2 mb-sm-0 mc-field-group">
+          <label for="mce-FNAME" class="sr-only">First Name </label>
+          <input type="text" value="" name="FNAME" class="form-control" placeholder="Nome" id="mce-FNAME">
+        </div>
+        <div class="form-group mb-2 mr-sm-2 mb-sm-0 mc-field-group">
+          <label for="mce-LNAME" class="sr-only">Last Name </label>
+          <input type="text" value="" name="LNAME" class="form-control" placeholder="Cognome" id="mce-LNAME">
+        </div>
+        <div class="form-group mb-2 mr-sm-2 mb-sm-0 mc-field-group">
+          <label for="mce-EMAIL" class="sr-only">Email Address </label>
+          <input type="email" value="" name="EMAIL" class="form-control required email" placeholder="you@youremail.com" id="mce-EMAIL">
+        </div>
+
+        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Iscriviti</button>
+
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_4264acf90b7891aa8d7dbe189_a5b1d32440" tabindex="-1" value="">
+        </div>
+    </form>
+  </div>
+</div>
+<!--
+<div class="home container">
+  <h1 class="page-heading">News</h1>
+  {{ content }}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>
+-->
