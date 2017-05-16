@@ -77,11 +77,13 @@ layout: default
                 currency: 'eur',
                 token: function(token) {
                   $('input#stripeToken').val(token.id);
+                  $('input#stripeEmail').val(token.email);
                   $('form').submit();
                 }
               });
               </script>
               <input type="hidden" id="stripeToken" name="stripeToken"/>
+              <input type="hidden" id="stripeEmail" name="stripeEmail"/>
             </form>
           </li>
         </ul>
