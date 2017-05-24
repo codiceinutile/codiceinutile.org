@@ -66,7 +66,7 @@ layout: default
               </div>
               <div class="form-check">
               </div>
-              <button class="btn btn-primary" id='donateButton'>Paga con carta di credito</button>
+              <button class="btn btn-outline-primary btn-lg" id='donateButton'>Paga con carta di credito</button>
               <script>
               var handler = StripeCheckout.configure({
                 key: 'pk_live_B0mnUUJgKBBjohmxGdAuPFSe',
@@ -85,6 +85,19 @@ layout: default
               <input type="hidden" id="stripeToken" name="stripeToken"/>
               <input type="hidden" id="stripeEmail" name="stripeEmail"/>
             </form>
+          </li>
+          <li>
+            <p>
+              <strong>PayPal</strong><br />
+              Cliccando sul link qui sotto, verrai reindirizzato sul sito PayPal. Se possibile, ti chiediamo di effettuare il pagamento con lo stesso indirizzo e-mail inserito nella domanda di ammissione.
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="btn btn-outline-primary" href="https://www.paypal.me/codiceinutile/5" role="button">&euro;5</a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-primary" href="https://www.paypal.me/codiceinutile/10" role="button">&euro;10</a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-primary" href="https://www.paypal.me/codiceinutile/20" role="button">&euro;20</a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-primary" href="https://www.paypal.me/codiceinutile/50" role="button">&euro;50</a></li>
+                <li class="list-inline-item"><a class="btn btn-outline-primary" href="https://www.paypal.me/codiceinutile" role="button">Quota libera (minimo &euro;5)</a></li>
+              </ul>
+            </p>
           </li>
         </ul>
       </aside>
