@@ -1,53 +1,18 @@
 // Google Webfont
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,700');
-
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  strong {
-    font-weight: 700;
-  }
-}
-
-h2, h3, h4 {
-  font-family: 'Inconsolata', monospace;
-}
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 .page {
   padding-top: 2rem;
-}
-
-.main-navbar {
-  background-color: #Ef3e4a;
-  ul.nav {
-    text-transform: uppercase;
-    a {
-      color: white;
-    }
-  }
 }
 
 .post-title {
   font-weight: 700;
 }
 
-.donation-form {
-  .form-check-label {
-    font-size: 1.5em;
-    font-family: 'Inconsolata', monospace;
-
-  }
-}
-
 .blockquote {
-  border:none;
   font-family: 'Inconsolata', monospace;
   font-weight: 400;
-}
-
-.jumbotron {
-  background-color: #FDF06F;
+  font-size: 1.5em;
 }
 
 .site-footer {
