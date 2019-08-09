@@ -1,42 +1,93 @@
-// Google Webfont
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+$color_black: #000000;
+$color_white: #FAFAFA;
+$color_blue: #3333ff;
 
-.page {
-  padding-top: 2rem;
+body, html {
+  height: 100%;
 }
 
-.post-title {
-  font-weight: 700;
+header {
+  a {
+    color: $color_blue;
+    &:hover {
+      color: lighten($color_blue, 10%);
+    }
+  }
+  .btn-donazione {
+    border:1px solid $color_blue;
+    color: $color_blue;
+  }
+}
+main {
+  h3 {
+    font-weight: bold;
+    color: $color_blue;
+    padding-bottom: 5px;
+    font-size: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &:after {
+      content:' ';
+      margin: 0 20px;
+      flex: 1 0 20px;
+      border-bottom:3px solid $color_blue;
+    }
+  }
+  .hero {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/assets/images/codice-inutile-associazione-culturale-Processing-community-day-roma-2019.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+  }
 }
 
-.blockquote {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 1.5em;
+.img-shadow-left {
+  box-shadow: 10px 10px 0px 0px $color_blue;
+  -webkit-box-shadow: 10px 10px 0px 0px $color_blue;
+  -moz-box-shadow: 10px 10px 0px 0px $color_blue;
 }
 
-.site-footer {
-  font-family: 'Inconsolata', monospace;
+.img-shadow-right {
+  box-shadow: -10px 10px 0px 0px $color_blue;
+  -webkit-box-shadow: -10px 10px 0px 0px $color_blue;
+  -moz-box-shadow: -10px 10px 0px 0px $color_blue;
 }
 
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+footer {
+  a {
+    color: $color_white;
+    &:hover {
+      color: $color_white;
+    }
+  }
+}
+.newsletter {
+  background-color: $color_blue;
+}
+.colophon {
+  background-color: $color_black;
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
+.donazione {
+  h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: $color_white;
+    border-bottom: 1px solid $color_white;
+    a {
+      color: $color_white;
+      &:hover {
+        text-decoration: none;
+        color: lighten($color_blue, 30%);
+      }
+    }
+  }
+  .box-donazione {
+    background-color: $color_blue;
+  }
 }

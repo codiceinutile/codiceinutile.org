@@ -3,7 +3,7 @@ layout: tesseramento
 title: Tesseramento
 permalink: /tesseramento/
 ---
-Siamo partiti da poco ma abbiamo grandi progetti e, per realizzarli, abbiamo bisogno anche del tuo aiuto. Abbiamo deciso di creare un'associazione perché crediamo fortemente nell'importanza della condivisione di progetti, esperienze e idee.
+Vuoi avere una parte attiva nell'associazione e nelle attività che organizziamo? Se la risposta è si allora puoi tesserarti a Codice Inutile. Quando siamo nati abbiamo deciso di creare un'associazione senza scopo di lucro proprio perché crediamo fortemente nell'importanza della condivisione di progetti, esperienze e idee.
 
 Se anche tu credi in questo progetto, se sei un *creative coder*, un appassionato di programmazione o arte, una persona sensibile e attenta alle innovazioni tecnologiche e di come queste possano essere usate per fini ed espressioni artistiche, diventa socio.
 
