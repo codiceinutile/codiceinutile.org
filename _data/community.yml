@@ -3,7 +3,6 @@
 # Want to be part of it? Write to us at codiceinutile[at]gmail or add yourself
 
 - name: Federico Pepe
-  email: federico@federicopepe.com
   lat: 45.438618
   lng: 10.993313
   languages:
@@ -16,7 +15,6 @@
     - https://www.federicopepe.com
 
 - name: Matteo Testa
-  email: matesta15@gmail.com
   languages: 
     - Processing
     - P5.js
@@ -73,3 +71,315 @@
     - https://www.limulo.net
     - https://soundcloud.com/nicolaariutti
     - https://nicolaariutti.bandcamp.com
+
+- name: Luca Feliciani
+  languages:
+    - Processing
+    - Openframeworks
+    - C
+    - Phyton
+  tags: 
+    - Interaction design
+  links:
+    - https://www.lucafeliciani.com
+
+- name: Luca Moroni
+  languages:
+    - Javascript
+    - Three.js
+    - Blender 3D
+    - VVVV
+    - HLSL
+    - Unity3D
+    - C#
+  tags:
+    - Live visual
+    - Infinite loops
+    - Fake loops
+    - Audio reactive
+    - Storytelling
+  links:
+    - www.lucamoroni.com
+    - https://esnho.github.io/
+    - https://www.twitter.com/esnhoesnho
+    - http://k-sine.tumblr.com"
+
+- name: Francesco
+  languages:
+    - Processing
+    - Max/MSP/Jitter
+    - Touchdesigner
+
+- name: Alka Cappellazzo
+  lat: 45.464203
+  lng: 9.189982
+  languages:
+    - JavaScript
+    - Processing
+    - three.js
+  tags:
+   - Arte Generativa
+   - Didattica
+  links:
+   - https://www.alkacappellazzo.it/
+
+- name: Valerio Viperino
+  lat: 41.902782
+  lng: 12.496365
+  languages:
+  - Openframeworks
+  - Processing
+  - Python
+  - FoxDot
+  - Arduino
+  tags:
+   - Arte generativa 
+   - installazioni new media
+   - computer grafica
+   - musica algoritmica
+   links:
+   - http://valerioviperino.me
+   - https://twitter.con/vvzen
+   - https://instagram.com/vvz3n
+
+- name: naus3a
+  languages:
+    - C++
+    - C
+    - C#
+    - Java
+    - Javascript
+    - GLSL
+    - OpenFrameworks
+    - Processing
+    - Unity
+  tags:
+    - interaction design
+    - arte generativa
+    - live shows
+  links:
+    - http://naus3a.ml
+    - https://github.com/naus3a
+
+- name: Jon Von
+  lat: 41.902782
+  lng: 12.496365
+  languages:
+    - Processing
+  tags:
+  - Arte generativa
+  - Typography
+
+- name: Adam di Mario
+  lat: 41.902782
+  lng: 12.496365
+  languages:
+    - JavaScript
+    - Processing
+  tags:
+    - Arte generativa 
+    - Manipolazione di immagini esistenti
+  links:
+    - https://www.instagram.com/nev.nein/
+
+- name: Andrea Collet
+  lat: 45.464203
+  lng: 9.189982
+  languages:
+    - Javascript
+    - Bash
+    - WebGL
+  tags:
+  - Audiovisuals
+    - Arte generativa
+    - Data visualization
+    - Interaction design
+    - Videogames
+  links:
+    - https://www.andreacollet.it
+    - https://www.github.com/ifthenelse
+
+- name: Valentina Lorè
+  lat: 45.464203
+  lng: 9.189982
+  languages:
+    - Processing
+    - openFrameworks
+    - SuperCollider
+    - PureData
+    - Tidalcycles
+    - FoxDot
+    - Python
+    - C/C++
+    - Perl
+    - Haskell
+    - Javascript
+  tags: 
+    - Musica
+    - Sound design
+    - Live coding
+  links:
+    - https://twitter.com/v1a1l1e1
+    - http://www.limulo.net
+
+- name: Mauro Di Giovanni
+  lat: 41.902782
+  lng: 12.496365
+  languages: 
+    - Supercollider
+  tags: 
+    - Musica
+  links: 
+    - http://rudecode.altervista.org
+
+- name: Raul Masu
+  languages:
+    - Processing
+    - Supercollider
+    - Unity
+    - (PD)
+  tags:
+    - Human-centered computing / HCI / Interaction design
+    - Musica / music computing
+    - Danza
+    - Arte generativa
+  links:
+  - https://twitter.com/raul_masu
+
+- name: Rajan	Craveri
+  lat: 45.070339
+  lng: 7.686864
+  languages:
+    - Max 8 - Jitter
+  tags: 
+    - Danza
+    - Musica
+    - Interaction design
+  links:
+    - https://www.spaziomicron.it
+
+- name: Kerem	Türkyilmaz
+  lat: 45.464203
+  lng: 9.189982
+  languages:
+    - Processing
+    - Javascript
+    - HTML
+    - CSS
+  tags:
+    - Arte generativa 
+    - Interaction design
+    - Percezione
+    - Movimento
+  links:
+    - https://www.kerem.ch
+    - https://keremturkyilmaz.github.io/TypeMismatchWebsite/index.html
+
+- name: Tommaso	Elli
+  languages:
+    - JavaScript (d3js, p5js)
+    - Arduino
+    - Python
+  tags:
+    - Information design
+  links:
+    - https://drawwithcode.github.io/2018/
+
+- name: Samuele	
+  languages:
+    - Java
+    - PHP
+    - C++
+  tags:
+    - Arte Generativa
+    - UI/UX
+    - Applicazioni mobile
+    - Siti web
+  links:
+   - https://linktr.ee/samuele__simone
+
+- name: Bruno	Laurencich
+  lat: 41.902782
+  lng: 12.496365
+  languages:
+    - Processing
+    - OpenFrameworks
+    - Blender 
+    - Python
+    - Js
+  tags:
+    - arte digitale/generativa
+    - sviluppo di sistema di cattura di movimento
+    - creazione 3D
+  links:
+    - https://chordata.cc
+    - https://hackaday.io/project/27519-motion-capture-system-that-you-can-build-yourself
+    - https://gitlab.com/chordata
+    - https://twitter.com/chordatamocap
+    - https://www.facebook.com/Chordata.mocap
+    - https://www.instagram.com/chordata.mocap/
+    - https://www.youtube.com/channel/UCGQzjqwQboY5oUKYOgxJubw/"
+
+- name: Davide	Santini
+  lat: 45.817631
+  lng: 8.826380
+  languages:
+    - TouchDesigner
+    - Python
+    - Processing
+  tags:
+    - Interaction design
+    - Musica
+    - led lights
+    - live visual
+  links: 
+    - www.deltacut.it
+
+- name: Gabriele	
+  languages:
+    - Java
+  tags:
+    - Arte generativa
+
+- name: Antonio	Belluscio
+  lat: 45.464203
+  lng: 9.189982
+  languages:
+    - p5.js
+    - Processing
+    - JavaScript
+    - C++
+    - OpenFrameworks
+    - Java
+  tags: 
+    - arte generativa
+    - reactive graphics
+    - living graphics
+    - sinestesie
+  links: 
+    - https://livinbits.com
+   - https://www.facebook.com/livinbits/
+   - https://codesthesia.net
+   - https://www.facebook.com/codesthesia/"
+
+- name: Andrea	Bovo
+  languages:
+    - javascript
+    - webgl
+    - glsl
+  tags:
+  - arte generativa
+  links:
+  - https://www.facebook.com/groups/vec4glsl/
+  
+- name: Paolo	Corti
+  languages:
+    - Javascript
+    - Processing
+    - Touchdesigner
+  tags:
+    - arte generativa
+    - interaction design
+    - live visuals
+  links:
+    - http://www.bowler-lab.com/
