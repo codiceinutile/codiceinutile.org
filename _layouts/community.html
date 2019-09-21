@@ -14,14 +14,14 @@ layout: default
         <div class="col-12 col-md-8" id="map" style="height: 800px;">
             
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 pt-3 pt-md-0">
             <div class="accordion" id="community-members">
                 {% assign count = 0 %}
                 {% for member in site.data.community %}
                 <div class="card">
                     <div class="card-header" id="heading-{{count}}">
-                        <p class="mb-0" data-toggle="collapse" data-target="#collapse-{{count}}" aria-expanded="true" aria-controls="collapse-{{count}}">
-                        {{ member.name }}
+                        <p class="mb-0">
+                        <a href="#collapse-{{count}}" data-toggle="collapse" data-target="#collapse-{{count}}" aria-expanded="true" aria-controls="collapse-{{count}}">{{ member.name }}</a>
                         </p>
                         </div>
                         <div id="collapse-{{count}}" class="collapse" aria-labelledby="heading-{{count}}" data-parent="#community-members">
