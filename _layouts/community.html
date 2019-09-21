@@ -246,7 +246,7 @@ layout: default
         {% assign members = site.data.community | where_exp: "item", "item.lat" %} 
         {% for member in members %}
             var marker = new google.maps.Marker({
-                position: { lat: {{ member.lat }}, lng: {{ member.lng }} }, 
+                position: { lat: {{ member.lat + Math.random() * 0.01 }}, lng: {{ member.lng + Math.random() * 0.01 }} }, 
                 map: map
             });
 
