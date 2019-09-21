@@ -127,17 +127,17 @@
   lat: 41.902782
   lng: 12.496365
   languages:
-  - Openframeworks
-  - Processing
-  - Python
-  - FoxDot
-  - Arduino
+    - Openframeworks
+    - Processing
+    - Python
+    - FoxDot
+    - Arduino
   tags:
    - Arte generativa 
    - installazioni new media
    - computer grafica
    - musica algoritmica
-   links:
+  links:
    - http://valerioviperino.me
    - https://twitter.con/vvzen
    - https://instagram.com/vvz3n
