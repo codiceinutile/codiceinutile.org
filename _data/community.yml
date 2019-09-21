@@ -1,0 +1,75 @@
+# Codice Inutile
+# We are a community and these are our members.
+# Want to be part of it? Write to us at codiceinutile[at]gmail or add yourself
+
+- name: Federico Pepe
+  email: federico@federicopepe.com
+  lat: 45.438618
+  lng: 10.993313
+  languages:
+    - Processing
+    - P5.js
+  tags:
+    - Arte Generativa
+    - Data Visualization
+  links:
+    - https://www.federicopepe.com
+
+- name: Matteo Testa
+  email: matesta15@gmail.com
+  languages: 
+    - Processing
+    - P5.js
+    - Python
+    - Webgl
+    - Vvvv
+    - Arduino
+    - Unreal engine
+  tags:
+    - Design
+    - Arte generativa
+    - Interaction design
+    - Data visualization
+  links:
+    - https://otemate.it
+
+- name: Roberto Fazio
+  languages:
+    - C++ 
+    - OpenFrameworks
+    - C# (Unity3D) 
+    - Processing
+    - Arduino
+    - GLSL
+    - HLSL
+  tags:
+    - Interactive design
+    - Generative art
+    - Computer Vision
+    - Intelligenza Artificiale 
+    - Machine Learning
+  links:
+    - https://www.studiorf.io 
+
+- name: Martina
+  lat: 40.839981
+  lng: 14.252540
+  languages:
+    - Java
+  tags:
+    - Interaction Design
+
+- name: Nicola Ariutti
+  languages:
+    - Processing
+    - SuperCollider
+    - Python
+    - Arduino
+  tags: 
+    - Interaction Design 
+    - Musica Generativa
+    - Composizione Algoritmica
+  links:
+    - https://www.limulo.net
+    - https://soundcloud.com/nicolaariutti
+    - https://nicolaariutti.bandcamp.com
