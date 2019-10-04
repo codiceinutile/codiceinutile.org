@@ -385,3 +385,18 @@
     - live visuals
   links:
     - http://www.bowler-lab.com/
+    
+- name: Lorenzo Belardinelli
+  lat: 44.696239
+  lng: 10.627900
+  languages:
+    - p5.js
+    - Processing
+    - JavaScript
+    - Java
+    - GLSL
+  tags: 
+    - arte generativa
+  links: 
+    - https://www.facebook.com/janVoxelDigitalArt/
+    - https://www.instagram.com/janvoxel/
