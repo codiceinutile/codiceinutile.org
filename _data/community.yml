@@ -387,8 +387,8 @@
     - http://www.bowler-lab.com/
     
 - name: Lorenzo Belardinelli
-  lat: 44.696239
-  lng: 10.627900
+  lat: 44.702351
+  lng: 10.448130
   languages:
     - p5.js
     - Processing
@@ -408,6 +408,7 @@
     - p5.js
     - Processing
     - JavaScript
+    - Max 8 - Jitter
   tags: 
     - arte generativa
   links: 
