@@ -1,0 +1,30 @@
+body, html { height: 100%; }
+
+header a { color: #3333ff; }
+header a:hover { color: #6666ff; }
+header .btn-donazione { border: 1px solid #3333ff; color: #3333ff; }
+
+main h3 { font-weight: bold; color: #3333ff; padding-bottom: 5px; font-size: 0.75rem; overflow: hidden; display: flex; justify-content: center; align-items: center; text-align: center; }
+main h3:after { content: ' '; margin: 0 20px; flex: 1 0 20px; border-bottom: 3px solid #3333ff; }
+main .hero { background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/assets/images/codice-inutile-associazione-culturale-Processing-community-day-roma-2019.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; color: #fff; height: 100%; }
+
+.img-shadow-left { box-shadow: 10px 10px 0px 0px #3333ff; -webkit-box-shadow: 10px 10px 0px 0px #3333ff; -moz-box-shadow: 10px 10px 0px 0px #3333ff; }
+
+.img-shadow-right { box-shadow: -10px 10px 0px 0px #3333ff; -webkit-box-shadow: -10px 10px 0px 0px #3333ff; -moz-box-shadow: -10px 10px 0px 0px #3333ff; }
+
+.navbar .show, .navbar .collapsing { text-align: center !important; }
+
+.navbar-toggler { text-align: right; color: #3333ff; }
+.navbar-toggler .navbar-toggler-icon { color: #3333ff; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2851, 51, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+footer a { color: #FAFAFA; }
+footer a:hover { color: #FAFAFA; }
+
+.newsletter { background-color: #3333ff; }
+
+.colophon { background-color: #000000; }
+
+.donazione h2 { text-transform: uppercase; font-size: 1rem; color: #FAFAFA; border-bottom: 1px solid #FAFAFA; }
+.donazione h2 a { color: #FAFAFA; }
+.donazione h2 a:hover { text-decoration: none; color: #ccccff; }
+.donazione .box-donazione { background-color: #3333ff; }
